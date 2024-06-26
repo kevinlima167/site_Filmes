@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+header h1{
+    font-size: 40px;
+}
+.pesquisa{
+    margin-top: 20px;
+}
+.pesquisa input{
+    width: 500px;
+    height: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #bb1e1eda;
+    border-radius: 20px;
+}
+.pesquisa button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #bb1e1eda;
+    background-color: transparent;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+section .lista-filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .lista-filmes .cima, section .lista-filmes .baixo{
+    display: flex;
+    gap: 10px;
+}
+.fime{
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    transition: 1s;
+}
+.fime:hover{
+    background-color: rgb(83, 82, 82);
+    transform: scale(1.1);
+    color: aliceblue;
+}
+.fime p,.fime h3{
+    margin: 5px 10px;
+    font-size: 20px;
+}
